@@ -1,0 +1,11 @@
+#map{
+    height: 30rem;
+    width: 80rem;
+}
+
+.draw-polygon-active{
+    background-color: red;
+}
+.get-location-active{
+    background-color: red;
+}
