@@ -79,7 +79,7 @@ L.Control.CustomDrawGeomentryTools = L.Control.extend({
         map.locate({setView:true})
         map.on('locationfound',(e)=>{
           console.log(e)
-          L.circle([e.latitude,e.longitude],e.accuracy).addTo(map)
+          L.circle([e.latitude,e.longitude],50).addTo(map)
         })}
     })
     return location_div
